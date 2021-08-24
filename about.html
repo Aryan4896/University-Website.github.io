@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="shortcut icon" type="favicon.ico" href="/eduford_img/favicon-32x32.png">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"> -->
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/eduford_img/logo.png"></a>
+            <div class="nav-links" id="nav_links">
+                <span class="close" onclick="hidemenu()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                        <path
+                            d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z" />
+                    </svg></span>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <span class="menu" onclick="showmenu()"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                    fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg></span>
+        </nav>
+        <h1>About us</h1>
+    </section>
+    <section class="about">
+        <div class="row2">
+            <h2>OUR MISSION</h2>
+            <div class="about1-col">
+
+                <img src="/eduford_img/ab1.jpg">
+                <p>College Choosing decision, the second biggest decision of anyone's life should not go wrong. With the
+                    most interactive user interface and most validated content, we aspire to be the top education
+                    portals and help the students in every way in making his decision easier.</p>
+
+            </div>
+            <h2>OUR VISION</h2>
+            <div class="about2-col">
+
+                <img class="co" src="/eduford_img/ab2.jpg"><img class="cov" src="/eduford_img/ab3.jpg" height="150px">
+                <p>Eduford has been created to fulfill a vision of empowering students with knowledge so that they
+                    make a wiser decision while choosing their career and alma mater.</p>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <script>
+        let nav_links = document.getElementById("nav_links");
+        function showmenu() {
+            nav_links.style.right = "0"
+        }
+        function hidemenu() {
+            nav_links.style.right = "-200px"
+        }
+    </script>
+
+    <footer class="fleaxall">
+
+        <p class="op"><b><i>Follow us</i></b></p>
+        <div class="icons">
+
+
+            <a href="" target=" "> <i class="fab fa-instagram fa-2x"></i></a>
+            <a href="" target=" "><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="" target=" "> <i class="fab fa-twitter fa-2x"></i></a>
+
+        </div>
+        <p>Copyright&copy;Eduford.com</p>
+    </footer>
+</body>
+
+</html>
